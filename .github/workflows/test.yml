@@ -23,4 +23,4 @@ jobs:
           pip install git+git://github.com/bioinformed/vgraph@v1.4.0#egg=vgraph
       - name: Test
         run: |
-          python -m pytest -v ./test
+          python -m pytest -v test
